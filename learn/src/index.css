@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+hrml,body{
+    height: 100%;
+}
+
+.Background{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+   
+  background: 
+  radial-gradient(circle, rgb(118, 118, 248), purple, rgb(246, 245, 245));
+
+
+}
+
+.content{
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    gap: 2rem;
+    background: rgba(255,255,255,0.1);
+    padding: 1rem 4rem;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px rgba(29, 29, 29, 0.4);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.nb{
+ background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: aliceblue;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+}
+.nb:hover{
+    background-color: white;
+    color:black;
+}
+
+.Task{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.1);
+    padding: 2rem 5rem;
+    margin-top: 2rem;
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    font-family: sans-serif;
+    
+}
+
+.Task h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: aliceblue;
+}
+
+.Input{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Input input{
+    font-size: 1.8rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    border: none;
+    
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.Input button{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+ul{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.7rem;
+    
+}
+
+.list{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+li{
+    color: aliceblue;
+}
+
+.list button{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
